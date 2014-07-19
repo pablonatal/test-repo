@@ -1,0 +1,79 @@
+
+# Exit
+exit
+
+# Set mi username
+git config --global user.name "pablonatal"
+
+#Set my email
+git config --global user.email "pablonatal@gmail.com"
+
+#Set my new local repository
+cd C:\Users\pablo.natal\Documents\GitHub\Data Science Toolbox
+git init
+
+git remote add origin https://github.com/pablonatal/datasciencecoursera.git
+
+# Add local files
+git add .
+
+# Commit
+
+
+
+
+
+
+
+
+
+#Check for my system config status
+git config --list
+
+	core.symlinks=false
+	core.autocrlf=true
+	core.editor=gitpad
+	color.diff=auto
+	color.status=auto
+	color.branch=auto
+	color.interactive=true
+	color.ui=true
+	pack.packsizelimit=2g
+	help.format=html
+	http.sslcainfo=/bin/curl-ca-bundle.crt
+	sendemail.smtpserver=/bin/msmtp.exe
+	diff.astextplain.textconv=astextplain
+	rebase.autosquash=true
+	credential.helper=!github --credentials
+	filter.ghcleansmudge.clean=cat
+	filter.ghcleansmudge.smudge=cat
+	push.default=upstream
+	alias.dt=difftool
+	alias.mt=mergetool
+	diff.tool=vs11
+	difftool.prompt=false
+	difftool.bc4.cmd="c:/program files (x86)/beyond compare 3/bcomp.exe" "$LOCAL" "$
+	REMOTE"
+	difftool.p4.cmd="c:/program files/Perforce/p4merge.exe" "$LOCAL" "$REMOTE"
+	difftool.vs11.cmd="c:/program files (x86)/microsoft visual studio 11.0/common7/i
+	de/devenv.exe" '//diff' "$LOCAL" "$REMOTE"
+	merge.tool=bc3
+	mergetool.prompt=false
+	mergetool.keepbackup=false
+	mergetool.bc3.cmd="c:/program files (x86)/beyond compare 3/bcomp.exe" "$LOCAL" "
+	$REMOTE" "$BASE" "$MERGED"
+	mergetool.bc3.trustexitcode=true
+	mergetool.p4.cmd="c:/program files/Perforce/p4merge.exe" "$BASE" "$LOCAL" "$REMO
+	TE" "$MERGED"
+	mergetool.p4.trustexitcode=false
+	remote.origin.fetch=+refs/pull/*/head:refs/remotes/origin/pr/*
+	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+	user.name=pablonatal
+	user.email=pablonatal@gmail.com
+	core.repositoryformatversion=0
+	core.filemode=false
+	core.bare=false
+	core.logallrefupdates=true
+	core.symlinks=false
+	core.ignorecase=true
+	core.hidedotfiles=dotGitOnly
